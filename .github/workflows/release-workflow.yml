@@ -48,8 +48,8 @@ jobs:
         run: |
           mkdir -p Concurso-Semanal
           for fish in "$RED_FISH" "$YELLOW_FISH" "$BLUE_FISH"; do
-              if [ -d "FishBookmark/Spanish(SA)/$fish" ]; then
-                  cp -r "FishBookmark/Spanish(SA)/$fish" "Concurso-Semanal/"
+              if [ -d "FishBookmark-Spanish(SA)/$fish" ]; then
+                  cp -r "FishBookmark-Spanish(SA)/$fish" "Concurso-Semanal/"
               else
                   echo "⚠️ Folder for $fish not found!"
               fi
@@ -70,7 +70,7 @@ jobs:
           python <<'EOF'
           import os, zipfile
 
-          source_dir = "FishBookmark/Spanish(SA)"
+          source_dir = "FishBookmark-Spanish(SA)"
           zip_name = "BDO-Puntos-Pesca-Todos.zip"
 
           with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -97,7 +97,7 @@ jobs:
           import zipfile
           import unicodedata
 
-          source_dir = "FishBookmark/Spanish(SA)"
+          source_dir = "FishBookmark-Spanish(SA)"
           week_tag = os.environ["WEEK_TAG"]
           selected_fish_input = [
               os.environ["RED_FISH"],

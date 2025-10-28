@@ -24,4 +24,4 @@ This only happens in rare cases — when the position is right on the **edge of 
 </WorldmapBookMark>
 ```
 
-<img src="./Short Ninespine Stickleback_0_Preview.webp" width="450"/> <img src="./Short Ninespine Stickleback_1_Preview.webp" width="450"/> <img src="./Short Ninespine Stickleback_2_Preview.webp" width="450"/> <img src="./Short Ninespine Stickleback_3_Preview.webp" width="450"/> <img src="./Short Ninespine Stickleback_4_Preview.webp" width="450"/> 
+<img src="Short Ninespine Stickleback_0_Preview.webp" width="450"/> <img src="Short Ninespine Stickleback_1_Preview.webp" width="450"/> <img src="Short Ninespine Stickleback_2_Preview.webp" width="450"/> <img src="Short Ninespine Stickleback_3_Preview.webp" width="450"/> <img src="Short Ninespine Stickleback_4_Preview.webp" width="450"/> 

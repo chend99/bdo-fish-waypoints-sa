@@ -3,7 +3,7 @@ Los archivos fueron creado para hacerte la vida mas fácil al pescar en BDO.
 
 Muchas gracias a **Karpfen** que me dio la idea en primer lugar, y que me aguantó mientras intentaba mejorar las imágenes de la vista previa :D 
 
-Si estás interesado en como creé los puntos de pesca, está escrito [AQUÍ](https://flockenberger.github.io/blog/black-desert-online-fishing-waypoints/).
+Si estás interesado en cómo creé los puntos de pesca, está escrito [AQUÍ](https://flockenberger.github.io/blog/black-desert-online-fishing-waypoints/).
 
 ## Guía de Instalación
 Presiona en la imagen para ser redireccionado a YouTube.

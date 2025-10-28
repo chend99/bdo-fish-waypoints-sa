@@ -24,4 +24,4 @@ This only happens in rare cases — when the position is right on the **edge of 
 </WorldmapBookMark>
 ```
 
-<img src="./Green Sturgeon_0_Preview.webp" width="450"/> <img src="./Green Sturgeon_1_Preview.webp" width="450"/> <img src="./Green Sturgeon_2_Preview.webp" width="450"/> <img src="./Green Sturgeon_3_Preview.webp" width="450"/> <img src="./Green Sturgeon_4_Preview.webp" width="450"/> 
+<img src="Green Sturgeon_0_Preview.webp" width="450"/> <img src="Green Sturgeon_1_Preview.webp" width="450"/> <img src="Green Sturgeon_2_Preview.webp" width="450"/> <img src="Green Sturgeon_3_Preview.webp" width="450"/> <img src="Green Sturgeon_4_Preview.webp" width="450"/> 

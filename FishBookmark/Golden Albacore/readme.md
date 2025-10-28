@@ -24,4 +24,4 @@ This only happens in rare cases — when the position is right on the **edge of 
 </WorldmapBookMark>
 ```
 
-<img src="./Golden Albacore_0_Preview.webp" width="450"/> <img src="./Golden Albacore_1_Preview.webp" width="450"/> <img src="./Golden Albacore_2_Preview.webp" width="450"/> <img src="./Golden Albacore_3_Preview.webp" width="450"/> <img src="./Golden Albacore_4_Preview.webp" width="450"/> 
+<img src="Golden Albacore_0_Preview.webp" width="450"/> <img src="Golden Albacore_1_Preview.webp" width="450"/> <img src="Golden Albacore_2_Preview.webp" width="450"/> <img src="Golden Albacore_3_Preview.webp" width="450"/> <img src="Golden Albacore_4_Preview.webp" width="450"/> 
