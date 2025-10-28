@@ -1,0 +1,27 @@
+# Grouper
+Creado por **flockenberger**
+
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
+
+- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Waypoints
+```xml
+<!--
+    Puntos de pesca para:: Grouper
+    Creado por: flockenberger
+-->
+<WorldmapBookMark>
+    <BookMark BookMarkName="0: Grouper" PosX="337210.1" PosY="-7736.728" PosZ="19868.701" />
+    <BookMark BookMarkName="1: Grouper" PosX="328583.0" PosY="-7665.0" PosZ="35014.0" />
+    <BookMark BookMarkName="2: Grouper" PosX="329371.0" PosY="-7898.0" PosZ="32174.0" />
+    <BookMark BookMarkName="3: Grouper" PosX="278691.0" PosY="-7753.0" PosZ="149545.0" />
+    <BookMark BookMarkName="4: Grouper" PosX="329600.5" PosY="-7746.737" PosZ="34729.31" />
+</WorldmapBookMark>
+```
+
+<img src="Grouper_0_Preview.webp" width="450"/> <img src="Grouper_1_Preview.webp" width="450"/> <img src="Grouper_2_Preview.webp" width="450"/> <img src="Grouper_3_Preview.webp" width="450"/> <img src="Grouper_4_Preview.webp" width="450"/> 
