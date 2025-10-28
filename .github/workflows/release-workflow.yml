@@ -144,7 +144,11 @@ jobs:
         with:
           tag_name: ${{ env.WEEK_TAG }}
           name: "[DESCARGAR] Concurso Semanal de Pesca ${{ env.WEEK_TAG }}"
-          body: "Los peces de esta semana son: ${{ github.event.inputs.red_fish }}, ${{ github.event.inputs.yellow_fish }}, ${{ github.event.inputs.blue_fish }}"
+          body: |
+            Los peces de esta semana son: 
+            🔴 ${{ github.event.inputs.red_fish }}  
+            🟡 ${{ github.event.inputs.yellow_fish }}  
+            🔵 ${{ github.event.inputs.blue_fish }}
           files: |
             BDO-Puntos-Pesca-Todos.zip
             BDO-Concurso-Semanal-Pesca-*.zip
