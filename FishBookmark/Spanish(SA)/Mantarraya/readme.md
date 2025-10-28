@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Mantarraya
+    Puntos de pesca para: Mantarraya
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

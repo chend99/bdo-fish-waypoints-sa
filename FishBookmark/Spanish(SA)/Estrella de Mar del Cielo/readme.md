@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Estrella de Mar del Cielo
+    Puntos de pesca para: Estrella de Mar del Cielo
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

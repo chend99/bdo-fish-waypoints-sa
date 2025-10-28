@@ -31,7 +31,7 @@ Estos archivos fueron auto generados por **flockenberger**.
 
 Los nombres fueron proporcionados por **Karpfen**, junto con leaks antiguos.
 
-Estos puntos de pesca fueron generados utilizando blobl detection en el mapa de bits de pesca original que podés 
+Estos puntos de pesca fueron generados utilizando blob detection en el mapa de bits de pesca original que podés 
 encontrar en [BDOLytics](https://bdolytics.com/es/SA/map).
 
 Traducido por **Cherath**.

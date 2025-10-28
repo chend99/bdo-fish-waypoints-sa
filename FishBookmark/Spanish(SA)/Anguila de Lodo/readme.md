@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Anguila de Lodo
+    Puntos de pesca para: Anguila de Lodo
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

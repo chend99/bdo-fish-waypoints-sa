@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Gran Tiburón Blanco
+    Puntos de pesca para: Gran Tiburón Blanco
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

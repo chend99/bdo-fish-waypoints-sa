@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pez Lanzón
+    Puntos de pesca para: Pez Lanzón
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

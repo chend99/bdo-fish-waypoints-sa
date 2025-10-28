@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pez Globo con Espinas
+    Puntos de pesca para: Pez Globo con Espinas
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Chopa de Vaigiensis
+    Puntos de pesca para: Chopa de Vaigiensis
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

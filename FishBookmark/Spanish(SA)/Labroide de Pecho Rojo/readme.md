@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Labroide de Pecho Rojo
+    Puntos de pesca para: Labroide de Pecho Rojo
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

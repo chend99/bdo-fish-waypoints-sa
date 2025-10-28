@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Cangrejo Negro
+    Puntos de pesca para: Cangrejo Negro
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

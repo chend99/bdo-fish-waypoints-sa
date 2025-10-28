@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Lubina de Mar Manchado
+    Puntos de pesca para: Lubina de Mar Manchado
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

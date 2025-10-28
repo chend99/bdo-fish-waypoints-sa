@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Carpín de Ojo Enorme
+    Puntos de pesca para: Carpín de Ojo Enorme
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

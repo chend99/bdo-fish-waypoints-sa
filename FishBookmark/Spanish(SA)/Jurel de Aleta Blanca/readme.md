@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Jurel de Aleta Blanca
+    Puntos de pesca para: Jurel de Aleta Blanca
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

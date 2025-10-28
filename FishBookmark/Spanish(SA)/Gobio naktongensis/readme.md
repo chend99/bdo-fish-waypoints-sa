@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Gobio naktongensis
+    Puntos de pesca para: Gobio naktongensis
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

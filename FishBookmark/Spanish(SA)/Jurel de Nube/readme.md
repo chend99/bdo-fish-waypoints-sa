@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Jurel de Nube
+    Puntos de pesca para: Jurel de Nube
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

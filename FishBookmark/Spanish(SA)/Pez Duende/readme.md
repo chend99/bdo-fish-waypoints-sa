@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pez Duende
+    Puntos de pesca para: Pez Duende
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Sargento Cola de Tijera
+    Puntos de pesca para: Sargento Cola de Tijera
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pez con Colmillos Largos
+    Puntos de pesca para: Pez con Colmillos Largos
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

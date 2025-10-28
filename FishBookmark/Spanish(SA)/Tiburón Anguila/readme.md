@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Tiburón Anguila
+    Puntos de pesca para: Tiburón Anguila
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Cangrejo de Río
+    Puntos de pesca para: Cangrejo de Río
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

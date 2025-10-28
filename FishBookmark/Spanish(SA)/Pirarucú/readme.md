@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pirarucú
+    Puntos de pesca para: Pirarucú
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

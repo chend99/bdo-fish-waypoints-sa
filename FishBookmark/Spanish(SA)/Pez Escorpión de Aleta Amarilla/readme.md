@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pez Escorpión de Aleta Amarilla
+    Puntos de pesca para: Pez Escorpión de Aleta Amarilla
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

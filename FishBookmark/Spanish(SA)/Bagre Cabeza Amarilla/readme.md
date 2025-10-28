@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Bagre Cabeza Amarilla
+    Puntos de pesca para: Bagre Cabeza Amarilla
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

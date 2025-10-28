@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Calamar mitra
+    Puntos de pesca para: Calamar mitra
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Carpa de Cuero
+    Puntos de pesca para: Carpa de Cuero
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

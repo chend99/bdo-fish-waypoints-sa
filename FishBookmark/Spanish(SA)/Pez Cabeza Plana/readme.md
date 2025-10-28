@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pez Cabeza Plana
+    Puntos de pesca para: Pez Cabeza Plana
     Creado por: flockenberger
 -->
 <WorldmapBookMark>

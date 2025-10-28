@@ -12,7 +12,7 @@ Esto solo ocurre en raros casos — cuando la posición está justo en el **bord
 ## Waypoints
 ```xml
 <!--
-    Puntos de pesca para:: Pacu
+    Puntos de pesca para: Pacu
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
