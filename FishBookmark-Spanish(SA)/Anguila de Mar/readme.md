@@ -1,27 +1,25 @@
 # Anguila de Mar
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Anguila de Mar
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Anguila de Mar" PosX="-2303.0" PosY="-8283.0" PosZ="88305.0" />
-    <BookMark BookMarkName="1: Anguila de Mar" PosX="-3039.0" PosY="-8145.0" PosZ="87762.0" />
-    <BookMark BookMarkName="2: Anguila de Mar" PosX="-4346.0" PosY="-8221.0" PosZ="88264.0" />
-    <BookMark BookMarkName="3: Anguila de Mar" PosX="995.0" PosY="-8106.0" PosZ="87109.0" />
-    <BookMark BookMarkName="4: Anguila de Mar" PosX="994.6828" PosY="-8094.192" PosZ="87202.96" />
+    <BookMark BookMarkName="0: Anguila de Mar" PosX="-745.0" PosY="-8126.0" PosZ="87204.0" />
+    <BookMark BookMarkName="1: Anguila de Mar" PosX="-848.01263" PosY="-8157.933" PosZ="87348.35" />
+    <BookMark BookMarkName="2: Anguila de Mar" PosX="-4678.0" PosY="-8299.0" PosZ="88751.0" />
+    <BookMark BookMarkName="3: Anguila de Mar" PosX="-4662.8633" PosY="-8272.473" PosZ="88595.16" />
+    <BookMark BookMarkName="4: Anguila de Mar" PosX="-2096.2686" PosY="-8246.716" PosZ="88148.95" />
 </WorldmapBookMark>
 ```
 
-<img src="Anguila de Mar_0_Preview.webp" width="450"/> <img src="Anguila de Mar_1_Preview.webp" width="450"/> <img src="Anguila de Mar_2_Preview.webp" width="450"/> <img src="Anguila de Mar_3_Preview.webp" width="450"/> <img src="Anguila de Mar_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Anguila de Mar_0_Preview.webp" width="450"/> <img src="./Anguila de Mar_1_Preview.webp" width="450"/> <img src="./Anguila de Mar_2_Preview.webp" width="450"/> <img src="./Anguila de Mar_3_Preview.webp" width="450"/> <img src="./Anguila de Mar_4_Preview.webp" width="450"/> <img src="./Anguila de Mar_Preview.webp" width="450"/> 

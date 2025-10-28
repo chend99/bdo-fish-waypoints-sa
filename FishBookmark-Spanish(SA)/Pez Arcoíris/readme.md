@@ -1,27 +1,25 @@
 # Pez Arcoíris
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Pez Arcoíris
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Pez Arcoíris" PosX="732938.0" PosY="3396.0" PosZ="202311.0" />
-    <BookMark BookMarkName="1: Pez Arcoíris" PosX="732856.0" PosY="3413.0" PosZ="202291.0" />
-    <BookMark BookMarkName="2: Pez Arcoíris" PosX="735129.0" PosY="3337.0" PosZ="201777.0" />
-    <BookMark BookMarkName="3: Pez Arcoíris" PosX="732810.0" PosY="3353.0" PosZ="200156.0" />
-    <BookMark BookMarkName="4: Pez Arcoíris" PosX="735110.0" PosY="3280.0" PosZ="202820.0" />
+    <BookMark BookMarkName="0: Pez Arcoíris" PosX="732954.1" PosY="3391.329" PosZ="202325.84" />
+    <BookMark BookMarkName="1: Pez Arcoíris" PosX="732942.0" PosY="3392.0" PosZ="202333.0" />
+    <BookMark BookMarkName="2: Pez Arcoíris" PosX="734110.0" PosY="3446.0" PosZ="199524.0" />
+    <BookMark BookMarkName="3: Pez Arcoíris" PosX="734108.0" PosY="3444.0" PosZ="199509.0" />
+    <BookMark BookMarkName="4: Pez Arcoíris" PosX="730998.0" PosY="3300.0" PosZ="202408.0" />
 </WorldmapBookMark>
 ```
 
-<img src="Pez Arcoíris_0_Preview.webp" width="450"/> <img src="Pez Arcoíris_1_Preview.webp" width="450"/> <img src="Pez Arcoíris_2_Preview.webp" width="450"/> <img src="Pez Arcoíris_3_Preview.webp" width="450"/> <img src="Pez Arcoíris_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Pez Arcoíris_0_Preview.webp" width="450"/> <img src="./Pez Arcoíris_1_Preview.webp" width="450"/> <img src="./Pez Arcoíris_2_Preview.webp" width="450"/> <img src="./Pez Arcoíris_3_Preview.webp" width="450"/> <img src="./Pez Arcoíris_4_Preview.webp" width="450"/> <img src="./Pez Arcoíris_Preview.webp" width="450"/> 

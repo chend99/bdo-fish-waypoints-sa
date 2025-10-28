@@ -1,27 +1,25 @@
 # Carpita Negra
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Carpita Negra
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Carpita Negra" PosX="84813.21" PosY="9961.17" PosZ="-190249.3" />
-    <BookMark BookMarkName="1: Carpita Negra" PosX="127682.64" PosY="12475.67" PosZ="-377032.75" />
-    <BookMark BookMarkName="2: Carpita Negra" PosX="121719.0" PosY="9205.0" PosZ="-361485.0" />
-    <BookMark BookMarkName="3: Carpita Negra" PosX="127546.89" PosY="12475.678" PosZ="-377200.84" />
-    <BookMark BookMarkName="4: Carpita Negra" PosX="121674.78" PosY="4230.7285" PosZ="-305740.34" />
+    <BookMark BookMarkName="0: Carpita Negra" PosX="127611.0" PosY="12475.0" PosZ="-377105.0" />
+    <BookMark BookMarkName="1: Carpita Negra" PosX="127601.0" PosY="12475.0" PosZ="-377116.0" />
+    <BookMark BookMarkName="2: Carpita Negra" PosX="127641.0" PosY="12497.0" PosZ="-376936.0" />
+    <BookMark BookMarkName="3: Carpita Negra" PosX="127576.914" PosY="12475.661" PosZ="-377101.8" />
+    <BookMark BookMarkName="4: Carpita Negra" PosX="117288.0" PosY="10841.0" PosZ="-206613.0" />
 </WorldmapBookMark>
 ```
 
-<img src="Carpita Negra_0_Preview.webp" width="450"/> <img src="Carpita Negra_1_Preview.webp" width="450"/> <img src="Carpita Negra_2_Preview.webp" width="450"/> <img src="Carpita Negra_3_Preview.webp" width="450"/> <img src="Carpita Negra_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Carpita Negra_0_Preview.webp" width="450"/> <img src="./Carpita Negra_1_Preview.webp" width="450"/> <img src="./Carpita Negra_2_Preview.webp" width="450"/> <img src="./Carpita Negra_3_Preview.webp" width="450"/> <img src="./Carpita Negra_4_Preview.webp" width="450"/> <img src="./Carpita Negra_Preview.webp" width="450"/> 

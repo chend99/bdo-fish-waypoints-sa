@@ -1,27 +1,25 @@
 # Hocico Largo
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Hocico Largo
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Hocico Largo" PosX="170113.03" PosY="13757.734" PosZ="-353667.3" />
-    <BookMark BookMarkName="1: Hocico Largo" PosX="171072.0" PosY="13674.0" PosZ="-353471.0" />
-    <BookMark BookMarkName="2: Hocico Largo" PosX="163614.31" PosY="15942.562" PosZ="-386903.94" />
-    <BookMark BookMarkName="3: Hocico Largo" PosX="171205.0" PosY="13799.0" PosZ="-349576.0" />
-    <BookMark BookMarkName="4: Hocico Largo" PosX="169792.0" PosY="13816.0" PosZ="-351887.0" />
+    <BookMark BookMarkName="0: Hocico Largo" PosX="163598.0" PosY="15942.0" PosZ="-386795.0" />
+    <BookMark BookMarkName="1: Hocico Largo" PosX="163607.0" PosY="15942.0" PosZ="-386877.0" />
+    <BookMark BookMarkName="2: Hocico Largo" PosX="168078.0" PosY="11594.0" PosZ="-332678.0" />
+    <BookMark BookMarkName="3: Hocico Largo" PosX="163614.31" PosY="15942.562" PosZ="-386903.94" />
+    <BookMark BookMarkName="4: Hocico Largo" PosX="173585.0" PosY="13825.0" PosZ="-352143.0" />
 </WorldmapBookMark>
 ```
 
-<img src="Hocico Largo_0_Preview.webp" width="450"/> <img src="Hocico Largo_1_Preview.webp" width="450"/> <img src="Hocico Largo_2_Preview.webp" width="450"/> <img src="Hocico Largo_3_Preview.webp" width="450"/> <img src="Hocico Largo_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Hocico Largo_0_Preview.webp" width="450"/> <img src="./Hocico Largo_1_Preview.webp" width="450"/> <img src="./Hocico Largo_2_Preview.webp" width="450"/> <img src="./Hocico Largo_3_Preview.webp" width="450"/> <img src="./Hocico Largo_4_Preview.webp" width="450"/> <img src="./Hocico Largo_Preview.webp" width="450"/> 

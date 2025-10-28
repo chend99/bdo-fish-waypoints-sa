@@ -1,27 +1,25 @@
 # Ballena Gris
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Ballena Gris
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Ballena Gris" PosX="-1250332.0" PosY="-8172.0" PosZ="803630.0" />
-    <BookMark BookMarkName="1: Ballena Gris" PosX="-1202664.0" PosY="-8178.0" PosZ="784416.0" />
-    <BookMark BookMarkName="2: Ballena Gris" PosX="-1256187.0" PosY="-7784.0" PosZ="783758.0" />
-    <BookMark BookMarkName="3: Ballena Gris" PosX="-1257888.0" PosY="-7771.0" PosZ="774620.0" />
-    <BookMark BookMarkName="4: Ballena Gris" PosX="-1234414.0" PosY="-8111.0" PosZ="804439.0" />
+    <BookMark BookMarkName="0: Ballena Gris" PosX="-1262869.0" PosY="-7860.0" PosZ="790022.0" />
+    <BookMark BookMarkName="1: Ballena Gris" PosX="-1260164.1" PosY="-7915.335" PosZ="791001.75" />
+    <BookMark BookMarkName="2: Ballena Gris" PosX="-1271327.0" PosY="-7843.0" PosZ="773043.0" />
+    <BookMark BookMarkName="3: Ballena Gris" PosX="-1270971.0" PosY="-7818.0" PosZ="775564.0" />
+    <BookMark BookMarkName="4: Ballena Gris" PosX="-1262343.9" PosY="-7655.6543" PosZ="777410.9" />
 </WorldmapBookMark>
 ```
 
-<img src="Ballena Gris_0_Preview.webp" width="450"/> <img src="Ballena Gris_1_Preview.webp" width="450"/> <img src="Ballena Gris_2_Preview.webp" width="450"/> <img src="Ballena Gris_3_Preview.webp" width="450"/> <img src="Ballena Gris_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Ballena Gris_0_Preview.webp" width="450"/> <img src="./Ballena Gris_1_Preview.webp" width="450"/> <img src="./Ballena Gris_2_Preview.webp" width="450"/> <img src="./Ballena Gris_3_Preview.webp" width="450"/> <img src="./Ballena Gris_4_Preview.webp" width="450"/> <img src="./Ballena Gris_Preview.webp" width="450"/> 

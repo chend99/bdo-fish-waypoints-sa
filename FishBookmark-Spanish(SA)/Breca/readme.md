@@ -1,27 +1,25 @@
 # Breca
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Breca
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Breca" PosX="169443.0" PosY="11552.0" PosZ="-335380.0" />
-    <BookMark BookMarkName="1: Breca" PosX="159393.0" PosY="11612.0" PosZ="-337095.0" />
-    <BookMark BookMarkName="2: Breca" PosX="171205.0" PosY="13799.0" PosZ="-349576.0" />
-    <BookMark BookMarkName="3: Breca" PosX="170621.0" PosY="13897.0" PosZ="-353942.0" />
-    <BookMark BookMarkName="4: Breca" PosX="174041.0" PosY="13836.0" PosZ="-353161.0" />
+    <BookMark BookMarkName="0: Breca" PosX="166938.02" PosY="11536.641" PosZ="-327736.22" />
+    <BookMark BookMarkName="1: Breca" PosX="168326.0" PosY="11528.0" PosZ="-331418.0" />
+    <BookMark BookMarkName="2: Breca" PosX="158113.08" PosY="11702.79" PosZ="-335737.3" />
+    <BookMark BookMarkName="3: Breca" PosX="158178.0" PosY="11704.0" PosZ="-335677.0" />
+    <BookMark BookMarkName="4: Breca" PosX="170103.12" PosY="13770.581" PosZ="-353744.78" />
 </WorldmapBookMark>
 ```
 
-<img src="Breca_0_Preview.webp" width="450"/> <img src="Breca_1_Preview.webp" width="450"/> <img src="Breca_2_Preview.webp" width="450"/> <img src="Breca_3_Preview.webp" width="450"/> <img src="Breca_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Breca_0_Preview.webp" width="450"/> <img src="./Breca_1_Preview.webp" width="450"/> <img src="./Breca_2_Preview.webp" width="450"/> <img src="./Breca_3_Preview.webp" width="450"/> <img src="./Breca_4_Preview.webp" width="450"/> <img src="./Breca_Preview.webp" width="450"/> 

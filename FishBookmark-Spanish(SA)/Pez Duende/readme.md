@@ -1,27 +1,25 @@
 # Pez Duende
-Creado por **flockenberger**
-
-## ⚠️ Advertencia:
-Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
-En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
-Esto solo ocurre en raros casos — cuando la posición está justo en el **borde de una zona** y lanzas hacia el lado “equivocado”.
-
-- Para verificar la posición puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
-- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
-
-## Waypoints
 ```xml
 <!--
     Puntos de pesca para: Pez Duende
     Creado por: flockenberger
 -->
 <WorldmapBookMark>
-    <BookMark BookMarkName="0: Pez Duende" PosX="234185.11" PosY="-7912.079" PosZ="215871.36" />
-    <BookMark BookMarkName="1: Pez Duende" PosX="172498.0" PosY="-7828.0" PosZ="216881.0" />
-    <BookMark BookMarkName="2: Pez Duende" PosX="231513.0" PosY="-7887.0" PosZ="213691.0" />
-    <BookMark BookMarkName="3: Pez Duende" PosX="288243.0" PosY="-7885.0" PosZ="179168.0" />
-    <BookMark BookMarkName="4: Pez Duende" PosX="175172.34" PosY="-7751.438" PosZ="219129.42" />
+    <BookMark BookMarkName="0: Pez Duende" PosX="173296.69" PosY="-7770.235" PosZ="215614.58" />
+    <BookMark BookMarkName="1: Pez Duende" PosX="173226.0" PosY="-7734.0" PosZ="214785.0" />
+    <BookMark BookMarkName="2: Pez Duende" PosX="67924.516" PosY="-7918.667" PosZ="166667.7" />
+    <BookMark BookMarkName="3: Pez Duende" PosX="173092.0" PosY="-7707.0" PosZ="214617.0" />
+    <BookMark BookMarkName="4: Pez Duende" PosX="170021.0" PosY="-7903.0" PosZ="209733.0" />
 </WorldmapBookMark>
 ```
 
-<img src="Pez Duende_0_Preview.webp" width="450"/> <img src="Pez Duende_1_Preview.webp" width="450"/> <img src="Pez Duende_2_Preview.webp" width="450"/> <img src="Pez Duende_3_Preview.webp" width="450"/> <img src="Pez Duende_4_Preview.webp" width="450"/> 
+## ⚠️ Advertencia:
+Los puntos de pesca se generan según la __**posición de tu personaje**__ — __no__ donde cae el flotador.  
+En el océano especialmente, la dirección en la que lances la caña puede colocar tu flotador en una **zona de pesca diferente**, lo que puede resultar en capturar el pez incorrecto.  
+Presta atención a las vistas previas que muestran la ubicación en relación a las zonas marcadas.
+
+- Para verificar la posición de tu flotador puedes usar la guía [AQUÍ](https://flockenberger.github.io/bdo-fish-position/)
+- O ver la guía [AQUÍ](https://youtu.be/t-VXcRoNojk)
+
+## Vistas Previas
+<img src="./Pez Duende_0_Preview.webp" width="450"/> <img src="./Pez Duende_1_Preview.webp" width="450"/> <img src="./Pez Duende_2_Preview.webp" width="450"/> <img src="./Pez Duende_3_Preview.webp" width="450"/> <img src="./Pez Duende_4_Preview.webp" width="450"/> <img src="./Pez Duende_Preview.webp" width="450"/> 
