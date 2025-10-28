@@ -46,6 +46,7 @@ jobs:
           YELLOW_FISH: ${{ github.event.inputs.yellow_fish }}
           BLUE_FISH: ${{ github.event.inputs.blue_fish }}
         run: |
+          rm -rf Concurso-Semanal
           mkdir -p Concurso-Semanal
           for fish in "$RED_FISH" "$YELLOW_FISH" "$BLUE_FISH"; do
               if [ -d "FishBookmark-Spanish(SA)/$fish" ]; then
