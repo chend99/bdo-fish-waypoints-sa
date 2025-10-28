@@ -31,6 +31,8 @@ jobs:
       - name: Compute week range (Monday → Sunday) for tag
         id: week_tag
         run: |
+          export TZ="America/Argentina/Buenos_Aires"
+          echo "Current Argentina date/time: $(date '+%Y-%m-%d %H:%M:%S %A')"
           WEEKDAY=$(date +%u)
           MONDAY=$(date -d "$((WEEKDAY-1)) days ago" +%Y%m%d)
           SUNDAY=$(date -d "$MONDAY +6 days" +%Y%m%d)
