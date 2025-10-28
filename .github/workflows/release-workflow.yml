@@ -1,0 +1,150 @@
+name: Concurso Semanal de Pesca
+
+on:
+  workflow_dispatch:
+    inputs:
+      red_fish:
+        description: 'Nombre de la carpeta del pez grado rojo'
+        required: true
+      yellow_fish:
+        description: 'Nombre de la carpeta del pez grado amarillo'
+        required: true
+      blue_fish:
+        description: 'Nombre de la carpeta del pez grado azul'
+        required: true
+
+jobs:
+  concurso-semanal:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Compute week range (Monday → Sunday) for tag
+        id: week_tag
+        run: |
+          WEEKDAY=$(date +%u)
+          MONDAY=$(date -d "$((WEEKDAY-1)) days ago" +%Y%m%d)
+          SUNDAY=$(date -d "$MONDAY +6 days" +%Y%m%d)
+          WEEK_TAG="$MONDAY-$SUNDAY"
+          echo "WEEK_TAG=$WEEK_TAG" >> $GITHUB_ENV
+          echo "Computed week tag: $WEEK_TAG"
+
+      - name: Add weekly fishing contest data
+        env:
+          RED_FISH: ${{ github.event.inputs.red_fish }}
+          YELLOW_FISH: ${{ github.event.inputs.yellow_fish }}
+          BLUE_FISH: ${{ github.event.inputs.blue_fish }}
+        run: |
+          mkdir -p Concurso-Semanal
+          for fish in "$RED_FISH" "$YELLOW_FISH" "$BLUE_FISH"; do
+              if [ -d "FishBookmark/Spanish(SA)/$fish" ]; then
+                  cp -r "FishBookmark/Spanish(SA)/$fish" "Concurso-Semanal/"
+              else
+                  echo "⚠️ Folder for $fish not found!"
+              fi
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Concurso-Semanal
+          git commit -m "Added Fish for the Concurso Semanal ${{ env.WEEK_TAG }}" || echo "No changes to commit"
+          git push origin main
+
+      - name: Create Git tag for release
+        run: |
+          git tag $WEEK_TAG
+          git push origin $WEEK_TAG --force
+
+      - name: Create full ZIP (all fish)
+        run: |
+          python <<'EOF'
+          import os, zipfile
+
+          source_dir = "FishBookmark/Spanish(SA)"
+          zip_name = "BDO-Puntos-Pesca-Todos.zip"
+
+          with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zf:
+              for root, dirs, files in os.walk(source_dir):
+                  for file in files:
+                      if file.lower().endswith(".xml"):
+                          file_path = os.path.join(root, file)
+                          with open(file_path, "r", encoding="utf-8") as f:
+                              content = f.read()
+                          zf.writestr(file, content.encode("iso-8859-1"))
+
+          print(f"✅ Full ZIP created: {zip_name}")
+          EOF
+
+      - name: Create weekly fishing contest ZIP
+        env:
+          RED_FISH: ${{ github.event.inputs.red_fish }}
+          YELLOW_FISH: ${{ github.event.inputs.yellow_fish }}
+          BLUE_FISH: ${{ github.event.inputs.blue_fish }}
+          WEEK_TAG: ${{ env.WEEK_TAG }}
+        run: |
+          python <<'EOF'
+          import os
+          import zipfile
+          import unicodedata
+
+          source_dir = "FishBookmark/Spanish(SA)"
+          week_tag = os.environ["WEEK_TAG"]
+          selected_fish_input = [
+              os.environ["RED_FISH"],
+              os.environ["YELLOW_FISH"],
+              os.environ["BLUE_FISH"]
+          ]
+
+          # Normalize strings: remove accents, lowercase
+          def normalize(name):
+              return unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('utf-8').lower()
+
+          selected_fish = [normalize(f) for f in selected_fish_input]
+
+          zip_name = f"BDO-Concurso-Semanal-Pesca-{week_tag}.zip"
+          missing_fish = []
+
+          with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zf:
+              for fish in selected_fish:
+                  found = False
+                  # Walk only top-level folders
+                  for folder in os.listdir(source_dir):
+                      folder_path = os.path.join(source_dir, folder)
+                      if os.path.isdir(folder_path) and normalize(folder) == fish:
+                          # Add all files in the folder
+                          for root, dirs, files in os.walk(folder_path):
+                              for file in files:
+                                  file_path = os.path.join(root, file)
+                                  arcname = os.path.relpath(file_path, start=source_dir)
+                                  with open(file_path, "rb") as f:
+                                      zf.writestr(arcname, f.read())
+                          found = True
+                          break
+                  if not found:
+                      missing_fish.append(fish)
+
+          print(f"✅ Selected ZIP created: {zip_name}")
+          if missing_fish:
+              print(f"⚠️ Warning: The following fish were not found: {', '.join(missing_fish)}")
+          EOF
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.WEEK_TAG }}
+          name: "[DESCARGAR] Concurso Semanal de Pesca ${{ env.WEEK_TAG }}"
+          body: "Los peces de esta semana son: ${{ github.event.inputs.red_fish }}, ${{ github.event.inputs.yellow_fish }}, ${{ github.event.inputs.blue_fish }}"
+          files: |
+            BDO-Puntos-Pesca-Todos.zip
+            BDO-Concurso-Semanal-Pesca-*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
